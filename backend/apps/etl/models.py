@@ -2,7 +2,7 @@ from django.db import models
 from django.db import models
 
 
-User = get_user_model()
+#User = get_user_model()
 
 class ETLJob(models.Model):
     class Status(models.TextChoices):
